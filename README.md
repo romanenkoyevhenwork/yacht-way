@@ -10,10 +10,20 @@ The deployed version is available via GitHub Pages:
 
 ## What Was Done
 
-- Matched the General Info screen layout to the provided Figma design.
-- Updated spacing, typography, buttons, inputs, sidebar steps, section icons, and form blocks.
-- Added the Listing Heat visual states with snowflake and sun assets.
-- Kept application logic unchanged in `app.js`.
+- Matched the General Info screen to the provided Figma design and UI Kit.
+- Updated the HTML structure in `index.html` where it was needed for proper component markup, semantics, and class structure.
+- Updated `styles.css` to align layout, spacing, typography, colors, buttons, inputs, sidebar steps, section icons, form groups, and responsive behavior with the design.
+- Preserved the existing component interactivity without changing application logic.
+- Left `app.js` unchanged, according to the task requirements.
+- Added the bonus Listing Heat animation: the indicator smoothly changes from the freezing state to the warm state and visually grows as the form becomes more complete.
+- Added the required visual assets for the Listing Heat states.
+
+## Changed Files
+
+- `index.html` — markup and component structure updates.
+- `styles.css` — all visual styling and layout updates.
+- `assets/` — added Listing Heat image assets.
+- `app.js` — unchanged.
 
 ## How To Run Locally
 
